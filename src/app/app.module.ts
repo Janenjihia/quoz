@@ -9,7 +9,7 @@ import { QuoteDetailsComponent } from './quote-detail/quote-detail.component';
 import { QuotesFormComponent } from './quote-form/quote-form.component';
 
 import { DatePipePipe } from './date.pipe';
-import { FormsModule, NgForm, NgModel } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,7 @@ import { FormsModule, NgForm, NgModel } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // NgForm,
-    // NgModel,
-    FormsModule,
-    // ReactiveFormsModule,
-   
-    
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

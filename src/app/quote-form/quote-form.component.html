@@ -10,14 +10,14 @@
           <div *ngIf="name.errors">
               Your name is required.
           </div>
-          <!-- <div *ngIf="name.errors">
+          <div *ngIf="name.errors">
             Name is at least 3 characters long.
-          </div> -->
+          </div>
         </div> 
       </div>
       <div class="form-group">
         <label for="name">Quote </label>
-        <input type="text" required class="form-control" id="title" [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'>
+        <input type="text" required class="form-control" id="quote" [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'>
         <div *ngIf="quote.invalid && quote.dirty" class="alert alert-danger">
           <div *ngIf="quote.errors">
             Quote can not be empty.

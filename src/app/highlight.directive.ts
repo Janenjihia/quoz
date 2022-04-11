@@ -8,14 +8,14 @@ export class HighlightDirective {
   constructor( private elem: ElementRef) { 
     elem.nativeElement.style.backgroundcolor = "blue"
   }
-  @HostListener("click") onClicks(){
-    this.textDeco("red")
-  }
+  // @HostListener("click") onClicks(){
+  //   this.textDeco("red")
+  // }
 
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
-  }
-  private textDeco(action:string){
-    this.elem.nativeElement.style.color=action;
-  }
+  // @HostListener("dblclick") onDoubleClicks(){
+  //   this.textDeco("None")
+  // }
+  // private textDeco(action:string){
+  //   this.elem.nativeElement.style.color=action;
+  // }
 }
