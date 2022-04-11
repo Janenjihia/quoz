@@ -1,0 +1,13 @@
+.container{
+  background-image: url(../assets/sunset3.jpeg);
+  /* background-color: aqua; */
+  background-size: cover;
+}
+/* h1{
+  background-color: blue;
+} */
+h5{
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+}
