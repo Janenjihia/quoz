@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { Quote, } from '../quotes';
+import { Quotes, } from '../quotes';
 
 @Component({
   selector: 'app-quote-detail',
@@ -24,7 +24,7 @@ import { Quote, } from '../quotes';
 export class QuoteDetailsComponent implements OnInit {
   @Input()
   // added the exclamation as an assignment
-  quoty!: Quote;
+  quoty!: Quotes;
   @Output() isRead = new EventEmitter<boolean>();
   deleteQuote(read:boolean){
     this.isRead.emit(read);
