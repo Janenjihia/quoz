@@ -1,3 +1,4 @@
+// defining the properties
 export class Quotes {
   showInfo: boolean;
   completeDate!: Date;
@@ -5,5 +6,3 @@ export class Quotes {
       this.showInfo=false;
     }
 }
-
-// git
